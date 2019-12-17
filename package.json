@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code-ts",
+  "version": "2019.4.2",
+  "description": "Advent of Code (TypeScript)",
+  "main": "index.js",
+  "repository": "git@github.com:mtslzr/advent-of-code-ts.git",
+  "author": "Matthew Salazar <m@tthewsalazar.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "yarn build; node index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.20"
+  }
+}
